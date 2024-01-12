@@ -1,0 +1,55 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #7B287D;
+    text-align: center;
+}
+
+.game {
+    height: 70vh;
+    display: flex;
+    flex-direction:column;
+    
+    align-items:center;
+}
+
+.game .header {
+    color: #B7C0EE;
+}
+
+.game .container{
+    height:42vmin;
+    width:45vmin;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    grid-gap:2px;
+}
+
+.container button {
+    height: 14vmin;
+    width: 14vmin;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #CBF3D2;
+    color: #7B287D;
+    border: none;
+    cursor:pointer;
+}
+
+.game .winner {
+    color: #B7C0EE;
+}
+
+.winner button {
+    font-size: 20px;
+    font-family: Arial;
+    color: #7067CF;
+    background-color: #B7C0EE;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    font-weight:bold;
+}
